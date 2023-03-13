@@ -1,0 +1,38 @@
+.icon-component{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 var(--horizontal-space);
+}
+
+.icon-component__list{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+.icon-component__content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+}
+.icon-component__content a{
+    color: var(--red);
+    margin-bottom: 20px;
+}
+.icon-component__content span{
+    margin-bottom: 30px;
+    color: var(--red);
+}
+.icon-component__content img{
+    width: 50px;
+    height: 50px;
+}
+.icon-component__list__not-border{
+    border-bottom: none;
+}
+.icon-component__list__flex-start{
+    display: flex;
+    width: 100%;
+}

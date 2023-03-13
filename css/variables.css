@@ -1,0 +1,9 @@
+:root{
+    --red: #B82D2A;
+    --sub-red: #b82c2a8f;
+    --grey: rgba(0, 0, 0, 0.2);
+    --yellow: #FAC52B;
+    --jp: 'Noto Sans JP', sans-serif;
+    --horizontal-space: 20px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
+}

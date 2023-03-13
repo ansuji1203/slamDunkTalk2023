@@ -1,0 +1,10 @@
+.recommended-article{
+    font-family: var(--jp);
+    padding: 0 var(--horizontal-space);
+}
+.recommended-article__header{
+    font-size: 14px;
+    color: var(--red);
+    margin: 20px 0;
+    font-weight: 500;
+}

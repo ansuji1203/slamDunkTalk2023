@@ -1,0 +1,55 @@
+.welcome-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.welcome-description h1{
+    font-size: 22px;
+    color: var(--red);
+    font-weight: 600;
+}
+.welcome-description p{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.login-form{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.login-form input{
+    border: none;
+    font-size: 18px;
+    padding: 15px 0;
+    margin: 10px;
+    transition: border-color 0.5s ease-in-out;
+}
+.login-form input::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+.login-form input:nth-child(2){
+    margin-bottom: 20px;
+}
+.login-form input:nth-child(3){
+    background-color: var(--red);
+    color: white;
+}
+.login-form input:not([type="submit"]){
+    transition: border-color 0.5s ease-in-out;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.login-form input:focus{
+    border-color: var(--red);
+}
+.login-form a{
+    text-decoration: none;
+    color: var(--red);
+    text-align: center;
+    margin-top: 20px;
+}

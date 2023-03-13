@@ -1,0 +1,87 @@
+.friends-notice{
+    background-color: var(--red);
+    margin: 0 20px 20px 20px;
+    border-radius: 10em;
+}
+.friends-notice__box{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friends-notice__box__link{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 14px;
+}
+.friends-notice__box__link .fa-circle-info{
+    margin-right: 5px;
+}
+.friends-screen{
+    padding: 0px var(--horizontal-space);
+    width: 100%;
+    box-sizing: border-box;
+}
+.friends-screen a{
+    text-decoration: none;
+    color: black;
+}
+.friends-screen__club{
+    margin-top: 20px;
+    border-top: 1px solid var(--red);
+    padding: 15px 0;
+}
+.friends-screen__club__header{
+    display: flex;
+    justify-content: space-between
+}
+.friends-screen__club__header__title{
+    font-size: 15px;
+    color: var(--red);
+}
+@import "/css/variables.css";
+
+#splash-screen {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red);
+    animation: hideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 2s;
+}
+.splash-screen__ball {
+    width: 100px;
+    height: 100px;
+    animation: ball--bounce__frames 0.5s infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.5, 0.05, 1, 0.5);
+}
+.splash-screen__ball img {
+    width: 100px;
+    height: auto;
+    background-size: cover;
+}
+/* ball animation */
+@keyframes ball--bounce__frames {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 50px, 0);
+    }
+}
+@keyframes hideSplashScreen{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+

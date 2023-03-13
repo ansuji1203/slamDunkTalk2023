@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/basketball.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chat</title>
+  </head>
+  <body>
+    <!-- status bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>01:10</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-2xs"></i>
+      </div>
+    </div>
+    <!-- screen header -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icon">
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="#"><i class="fa-solid fa-basketball"></i></a>
+        <a href="#"><i class="fa-solid fa-music"></i></a>
+        <a href="#"><i class="fa-solid fa-gear"></i></a>
+      </div>
+    </header>
+
+    <!-- chat -->
+    <main class="friends-screen">
+      <a href="chat.html">
+        <article class="user-component-space user-component__margin">
+          <div class="user-component__column-space">
+            <img class="user-component__avatar" src="/img/anzai.jpeg" alt="" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">オヤジ</h4>
+              <h6 class="user-component__title__content">
+                諦めたらそこで試合終了ですよ。
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column-space">
+            <div class="user-component__icon">
+              <span class="user-component__icon__time">01:08</span>
+              <span
+                class="bottom-navigation__noti bottom-navigation__noti__not-nav">1</span
+              >
+            </div>
+          </div>
+        </article>
+        <article class="user-component-space">
+          <div class="user-component__column-space">
+            <img class="user-component__avatar" src="/img/miyagi.jpeg" alt="" />
+            <div class="user-component__text">
+              <h4 class="user-component__title">リョーチン</h4>
+              <h6 class="user-component__title__content">
+                待ってたぜ、問題児。
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column-space">
+            <div class="user-component__icon">
+              <span class="user-component__icon__time">01:00</span>
+              <span
+                class="bottom-navigation__noti bottom-navigation__noti__not-nav"
+                >1</span
+              >
+            </div>
+          </div>
+        </article>
+      </a>
+    </main>
+
+    <!-- bottom navigation -->
+    <nav class="bottom-navigation">
+      <ul class="bottom-navigation__list">
+        <li class="bottom-navigation__icon">
+          <a class="bottom-navigation__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="bottom-navigation__list">
+          <a class="bottom-navigation__link" href="chats.html">
+            <img src="/img/basketball.png" alt="">
+          </a>
+        </li>
+        <li class="bottom-navigation__list">
+          <a class="bottom-navigation__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i
+          ></a>
+        </li>
+        <li class="bottom-navigation__list">
+          <a class="bottom-navigation__link" href="more.html">
+            <span class="bottom-navigation__noti__dot"></span>
+            <i class="fa-solid fa-ellipsis fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- no mobile -->
+    <div id="no-mobile">
+      <span>Your screen is too big.</span>
+    </div>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/019c2e3d78.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
